@@ -70,6 +70,7 @@ button {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .sectone-content {
@@ -80,6 +81,15 @@ button {
 
 .sectone-blurb {
     max-width: 50%;
+}
+
+.sectoneimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 150px;
+    background-color: grey;
 }
 
 .secttwo {
@@ -93,7 +103,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
-    padding: 0 25%;
+    padding: 0 250px;
 }
 
 .card {
@@ -105,7 +115,7 @@ button {
     gap: 8px;
 }
 
-.card > img {
+.card > div {
     width: 200px;
     height: 200px;
     border: 5px solid #3882f6;
@@ -121,7 +131,7 @@ button {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    padding: 16px 25%;
+    padding: 16px 250px;
 }
 
 .quote {
@@ -139,7 +149,7 @@ button {
     display: flex;
     background-color: #3882f6;
     color: #f9faf8;
-    margin: 0 25%;
+    margin: 0 250px;
     padding: 30px 100px;
     border-radius: 15px;
     justify-content: space-between;
