@@ -4,6 +4,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
+    gap: 30px;
 }
 
 a {
@@ -17,12 +18,46 @@ li {
     padding: 0;
 }
 
-.sectone {
-    padding: 24px;
+button {
+    font-weight: bolder;
+    width: 150px;
+    height: 50px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+}
+
+.contrastbutton {
+    border: 5px solid #f9faf8;
+}
+
+.sectone, .footer {
+    padding: 24px 25%;
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
     color: #f9faf8;
+    gap: 30px;
+}
+
+.footer {
+    align-items: center;
+}
+
+.sectone-header {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.sectone-copy {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.headerlogo {
+    font-size: 24px;
+    color: f9faf8;
 }
 
 .headerlinks {
@@ -40,8 +75,83 @@ li {
 .sectone-content {
     display: flex;
     align-items: center;
+    gap: 24px;
 }
 
 .sectone-blurb {
     max-width: 50%;
+}
+
+.secttwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.cardblock {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 0 25%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    gap: 8px;
+}
+
+.card > img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+}
+
+.card > p {
+    text-align: center;
+    max-width: 200px;
+}
+
+.sectthree {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 25%;
+}
+
+.quote {
+    font-size: 36px;
+    justify-content: center;
+}
+
+.attribution {
+    display: flex;
+    font-size: 20px;
+    justify-content: right;
+}
+
+.sectfour {
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 0 25%;
+    padding: 30px 100px;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+
+.ctablurb > h3 {
+    margin: 0 0 8px 0;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.ctablurb > p {
+    margin: 0;
+    padding: 0;
 }
