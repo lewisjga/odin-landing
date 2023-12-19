@@ -131,7 +131,7 @@ button {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    padding: 16px 250px;
+    padding: 75px 250px 25px;
 }
 
 .quote {
