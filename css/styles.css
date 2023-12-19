@@ -20,8 +20,10 @@ li {
 
 button {
     font-weight: bolder;
+    font-size: 16px;
     width: 150px;
     height: 50px;
+    padding: 5px;
     color: #f9faf8;
     background-color: #3882f6;
     border: 5px solid #3882f6;
@@ -33,7 +35,6 @@ button {
 }
 
 .sectone, .footer {
-    padding: 24px 25%;
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
@@ -41,7 +42,12 @@ button {
     gap: 30px;
 }
 
+.sectone {
+    padding: 24px 25% 125px;
+}
+
 .footer {
+    padding: 24px 25%;
     align-items: center;
 }
 
